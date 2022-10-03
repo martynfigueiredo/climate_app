@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 
-import 'funcions.dart';
+import 'functions.dart';
 
 @sealed
 abstract class Either<L,R> extends Equatable{
