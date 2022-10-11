@@ -1,5 +1,5 @@
-import 'package:climate/domain/entities/unit_system.dart';
-import 'package:climate/domain/utils/unit_conversion.dart';
+import 'package:climate_app/domain/entities/unit_system.dart';
+import 'package:climate_app/domain/utils/unit_conversion.dart';
 import 'package:equatable/equatable.dart';
 
 class Weather extends Equatable {

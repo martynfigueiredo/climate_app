@@ -1,4 +1,4 @@
-import 'package:climate/domain/entities/unit_system.dart';
+import 'package:climate_app/domain/entities/unit_system.dart';
 import 'package:equatable/equatable.dart';
 
 class UnitSystemModel extends Equatable {

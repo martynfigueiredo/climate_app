@@ -1,4 +1,4 @@
-import 'package:climate/core/failure.dart';
+import 'package:climate_app/core/failure.dart';
 import 'package:flutter/material.dart';
 
 void showFailureSnackBar(

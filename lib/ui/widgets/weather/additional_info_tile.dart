@@ -1,4 +1,4 @@
-import 'package:climate/ui/utilities/constants.dart';
+import 'package:climate_app/ui/utilities/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

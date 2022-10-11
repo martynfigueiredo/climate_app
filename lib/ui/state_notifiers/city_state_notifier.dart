@@ -1,8 +1,8 @@
-import 'package:climate/core/failure.dart';
-import 'package:climate/core/use_case.dart';
-import 'package:climate/domain/entities/city.dart';
-import 'package:climate/domain/use_cases/get_city.dart';
-import 'package:climate/domain/use_cases/set_city.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/core/use_case.dart';
+import 'package:climate_app/domain/entities/city.dart';
+import 'package:climate_app/domain/use_cases/get_city.dart';
+import 'package:climate_app/domain/use_cases/set_city.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 import 'package:riverpod/riverpod.dart';

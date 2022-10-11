@@ -1,6 +1,6 @@
-import 'package:climate/core/either.dart';
-import 'package:climate/core/failure.dart';
-import 'package:climate/domain/entities/city.dart';
+import 'package:climate_app/core/either.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/domain/entities/city.dart';
 import 'package:riverpod/riverpod.dart';
 
 abstract class CityRepo {

@@ -1,5 +1,5 @@
-import 'package:climate/ui/screens/settings_screen.dart';
-import 'package:climate/ui/widgets/dialogs/help_and_feedback_dialog.dart';
+import 'package:climate_app/ui/screens/settings_screen.dart';
+import 'package:climate_app/ui/widgets/dialogs/help_and_feedback_dialog.dart';
 import 'package:flutter/material.dart';
 
 enum Menu { settings, help }

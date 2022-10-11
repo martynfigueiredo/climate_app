@@ -1,7 +1,7 @@
-import 'package:climate/domain/entities/unit_system.dart';
-import 'package:climate/ui/state_notifiers/full_weather_state_notifier.dart' as w;
-import 'package:climate/ui/state_notifiers/unit_system_state_notifier.dart';
-import 'package:climate/ui/widgets/weather/additional_info_tile.dart';
+import 'package:climate_app/domain/entities/unit_system.dart';
+import 'package:climate_app/ui/state_notifiers/full_weather_state_notifier.dart' as w;
+import 'package:climate_app/ui/state_notifiers/unit_system_state_notifier.dart';
+import 'package:climate_app/ui/widgets/weather/additional_info_tile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';

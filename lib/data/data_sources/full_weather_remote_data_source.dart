@@ -21,7 +21,7 @@ class FullWeatherRemoteDataSource {
     final apiKeyModel = (await _apiKeyRepo.getApiKey()).fold((_) => null, id)!;
 
     final coordinates =
-    (await _geocodingRepo.getCoordinates(city)).fold((_) => null, id)!;
+        (await _geocodingRepo.getCoordinates(city)).fold((_) => null, id)!;
 
     // TODO: create a client as the docs recommend creating a client when
     // making multiple requests to the same server.
@@ -65,7 +65,7 @@ class FullWeatherRemoteDataSource {
 }
 
 final fullWeatherRemoteDataSourceProvider = Provider(
-      (ref) => FullWeatherRemoteDataSource(
+  (ref) => FullWeatherRemoteDataSource(
     ref.watch(apiKeyRepoProvider),
     ref.watch(geocodingRepoProvider),
   ),

@@ -1,6 +1,6 @@
-import 'package:climate/ui/state_notifiers/full_weather_state_notifier.dart' as w;
-import 'package:climate/ui/utilities/constants.dart';
-import 'package:climate/ui/utilities/weather_icon.dart';
+import 'package:climate_app/ui/state_notifiers/full_weather_state_notifier.dart' as w;
+import 'package:climate_app/ui/utilities/constants.dart';
+import 'package:climate_app/ui/utilities/weather_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

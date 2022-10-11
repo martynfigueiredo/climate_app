@@ -1,4 +1,4 @@
-import 'package:climate/ui/widgets/others/link_text_span.dart';
+import 'package:climate_app/ui/widgets/others/link_text_span.dart';
 import 'package:flutter/material.dart';
 
 class ApiKeyInfoDialog extends StatelessWidget {

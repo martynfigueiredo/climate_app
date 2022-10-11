@@ -1,7 +1,7 @@
-import 'package:climate/core/failure.dart';
-import 'package:climate/data/models/api_key_model.dart';
-import 'package:climate/ui/state_notifiers/api_key_state_notifier.dart';
-import 'package:climate/ui/utilities/snack_bars.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/data/models/api_key_model.dart';
+import 'package:climate_app/ui/state_notifiers/api_key_state_notifier.dart';
+import 'package:climate_app/ui/utilities/snack_bars.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';

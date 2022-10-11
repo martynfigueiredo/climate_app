@@ -1,4 +1,4 @@
-import 'package:climate/ui/themes/clima_theme.dart';
+import 'package:climate_app/ui/themes/clima_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

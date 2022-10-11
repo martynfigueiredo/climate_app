@@ -1,19 +1,19 @@
-import 'package:climate/data/models/dark_theme_model.dart';
-import 'package:climate/data/models/theme_model.dart';
-import 'package:climate/data/provider.dart';
-import 'package:climate/data/repos/city_repo_impl.dart';
-import 'package:climate/data/repos/full_weather_repo.dart';
-import 'package:climate/data/repos/unit_system_repo_impl.dart';
-import 'package:climate/domain/repos/city_repo.dart';
-import 'package:climate/domain/repos/full_weather_repo.dart';
-import 'package:climate/domain/repos/unit_system_repo.dart';
-import 'package:climate/ui/screens/weather_screen.dart';
-import 'package:climate/ui/state_notifiers/theme_state_notifier.dart' as t;
-import 'package:climate/ui/state_notifiers/theme_state_notifier.dart'
+import 'package:climate_app/data/models/dark_theme_model.dart';
+import 'package:climate_app/data/models/theme_model.dart';
+import 'package:climate_app/data/provider.dart';
+import 'package:climate_app/data/repos/city_repo_impl.dart';
+import 'package:climate_app/data/repos/full_weather_repo.dart';
+import 'package:climate_app/data/repos/unit_system_repo_impl.dart';
+import 'package:climate_app/domain/repos/city_repo.dart';
+import 'package:climate_app/domain/repos/full_weather_repo.dart';
+import 'package:climate_app/domain/repos/unit_system_repo.dart';
+import 'package:climate_app/ui/screens/weather_screen.dart';
+import 'package:climate_app/ui/state_notifiers/theme_state_notifier.dart' as t;
+import 'package:climate_app/ui/state_notifiers/theme_state_notifier.dart'
     show themeStateNotifierProvider;
-import 'package:climate/ui/themes/black_theme.dart';
-import 'package:climate/ui/themes/dark_theme.dart';
-import 'package:climate/ui/themes/light_theme.dart';
+import 'package:climate_app/ui/themes/black_theme.dart';
+import 'package:climate_app/ui/themes/dark_theme.dart';
+import 'package:climate_app/ui/themes/light_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -67,7 +67,7 @@ class _App extends HookConsumerWidget {
     final themeStateNotifier = ref.watch(themeStateNotifierProvider.notifier);
 
     useEffect(
-      () {
+          () {
         themeStateNotifier.loadTheme();
 
         return null;

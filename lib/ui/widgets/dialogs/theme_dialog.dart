@@ -1,5 +1,5 @@
-import 'package:climate/data/models/theme_model.dart';
-import 'package:climate/ui/state_notifiers/theme_state_notifier.dart';
+import 'package:climate_app/data/models/theme_model.dart';
+import 'package:climate_app/ui/state_notifiers/theme_state_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

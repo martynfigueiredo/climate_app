@@ -1,10 +1,10 @@
-import 'package:climate/data/utils/date_time.dart' as date_time_utils;
-import 'package:climate/domain/entities/city.dart';
-import 'package:climate/domain/entities/daily_forecast.dart';
-import 'package:climate/domain/entities/full_weather.dart';
-import 'package:climate/domain/entities/hourly_forecast.dart';
-import 'package:climate/domain/entities/unit_system.dart';
-import 'package:climate/domain/entities/weather.dart';
+import 'package:climate_app/data/utils/date_time.dart' as date_time_utils;
+import 'package:climate_app/domain/entities/city.dart';
+import 'package:climate_app/domain/entities/daily_forecast.dart';
+import 'package:climate_app/domain/entities/full_weather.dart';
+import 'package:climate_app/domain/entities/hourly_forecast.dart';
+import 'package:climate_app/domain/entities/unit_system.dart';
+import 'package:climate_app/domain/entities/weather.dart';
 import 'package:equatable/equatable.dart';
 
 class FullWeatherModel extends Equatable {

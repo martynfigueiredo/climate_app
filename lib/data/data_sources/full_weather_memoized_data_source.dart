@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:climate/core/either.dart';
-import 'package:climate/core/failure.dart';
-import 'package:climate/domain/entities/full_weather.dart';
+import 'package:climate_app/core/either.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/domain/entities/full_weather.dart';
 import 'package:riverpod/riverpod.dart';
 
 class FullWeatherMemoizedDataSource {

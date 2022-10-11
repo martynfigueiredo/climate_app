@@ -1,10 +1,10 @@
-import 'package:climate/constants.dart';
-import 'package:climate/ui/build_flavor.dart';
-import 'package:climate/ui/widgets/dialogs/credits_dialog.dart';
-import 'package:climate/ui/widgets/dialogs/help_and_feedback_dialog.dart';
-import 'package:climate/ui/widgets/settings/settings_divider.dart';
-import 'package:climate/ui/widgets/settings/settings_header.dart';
-import 'package:climate/ui/widgets/settings/settings_tile.dart';
+import 'package:climate_app/constants.dart';
+import 'package:climate_app/ui/build_flavor.dart';
+import 'package:climate_app/ui/widgets/dialogs/credits_dialog.dart';
+import 'package:climate_app/ui/widgets/dialogs/help_and_feedback_dialog.dart';
+import 'package:climate_app/ui/widgets/settings/settings_divider.dart';
+import 'package:climate_app/ui/widgets/settings/settings_header.dart';
+import 'package:climate_app/ui/widgets/settings/settings_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';

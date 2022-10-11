@@ -1,8 +1,8 @@
-import 'package:climate/core/failure.dart';
-import 'package:climate/core/functions.dart';
-import 'package:climate/data/models/dark_theme_model.dart';
-import 'package:climate/data/models/theme_model.dart';
-import 'package:climate/data/repos/theme_repo.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/core/functions.dart';
+import 'package:climate_app/data/models/dark_theme_model.dart';
+import 'package:climate_app/data/models/theme_model.dart';
+import 'package:climate_app/data/repos/theme_repo.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 import 'package:riverpod/riverpod.dart';

@@ -1,4 +1,4 @@
-import 'package:climate/ui/widgets/settings/settings_tile.dart';
+import 'package:climate_app/ui/widgets/settings/settings_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';

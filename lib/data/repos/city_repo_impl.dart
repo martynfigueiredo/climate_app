@@ -1,11 +1,11 @@
-import 'package:climate/core/either.dart';
-import 'package:climate/core/failure.dart';
-import 'package:climate/data/data_sources/city_local_data_source.dart';
-import 'package:climate/data/data_sources/city_random_data_source.dart';
-import 'package:climate/data/models/city_model.dart';
-import 'package:climate/data/repos/geocoding_repo.dart';
-import 'package:climate/domain/entities/city.dart';
-import 'package:climate/domain/repos/city_repo.dart';
+import 'package:climate_app/core/either.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/data/data_sources/city_local_data_source.dart';
+import 'package:climate_app/data/data_sources/city_random_data_source.dart';
+import 'package:climate_app/data/models/city_model.dart';
+import 'package:climate_app/data/repos/geocoding_repo.dart';
+import 'package:climate_app/domain/entities/city.dart';
+import 'package:climate_app/domain/repos/city_repo.dart';
 import 'package:riverpod/riverpod.dart';
 
 class CityRepoImpl implements CityRepo {

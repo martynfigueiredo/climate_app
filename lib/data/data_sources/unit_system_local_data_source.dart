@@ -1,7 +1,7 @@
-import 'package:climate/core/either.dart';
-import 'package:climate/core/failure.dart';
-import 'package:climate/data/models/unit_system_model.dart';
-import 'package:climate/data/provider.dart';
+import 'package:climate_app/core/either.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/data/models/unit_system_model.dart';
+import 'package:climate_app/data/provider.dart';
 import 'package:riverpod/riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

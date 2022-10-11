@@ -1,6 +1,6 @@
-import 'package:climate/core/failure.dart';
-import 'package:climate/data/models/api_key_model.dart';
-import 'package:climate/data/repos/api_key_repo.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/data/models/api_key_model.dart';
+import 'package:climate_app/data/repos/api_key_repo.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 import 'package:riverpod/riverpod.dart';

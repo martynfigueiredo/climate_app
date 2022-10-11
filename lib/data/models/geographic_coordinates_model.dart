@@ -1,4 +1,4 @@
-import 'package:climate/domain/entities/city.dart';
+import 'package:climate_app/domain/entities/city.dart';
 import 'package:equatable/equatable.dart';
 
 class GeographicCoordinatesModel extends Equatable {

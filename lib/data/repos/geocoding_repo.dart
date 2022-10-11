@@ -1,9 +1,9 @@
-import 'package:climate/core/either.dart';
-import 'package:climate/core/failure.dart';
-import 'package:climate/data/data_sources/geocoding_caching_data_source.dart';
-import 'package:climate/data/data_sources/geocoding_remote_data_source.dart';
-import 'package:climate/data/models/geographic_coordinates_model.dart';
-import 'package:climate/domain/entities/city.dart';
+import 'package:climate_app/core/either.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/data/data_sources/geocoding_caching_data_source.dart';
+import 'package:climate_app/data/data_sources/geocoding_remote_data_source.dart';
+import 'package:climate_app/data/models/geographic_coordinates_model.dart';
+import 'package:climate_app/domain/entities/city.dart';
 import 'package:riverpod/riverpod.dart';
 
 class GeocodingRepo {

@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:climate/core/either.dart';
-import 'package:climate/core/failure.dart';
-import 'package:climate/data/data_sources/api_key_local_data_source.dart';
-import 'package:climate/data/models/api_key_model.dart';
+import 'package:climate_app/core/either.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/data/data_sources/api_key_local_data_source.dart';
+import 'package:climate_app/data/models/api_key_model.dart';
 import 'package:http/http.dart' as http;
 import 'package:riverpod/riverpod.dart';
 

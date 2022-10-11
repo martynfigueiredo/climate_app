@@ -1,5 +1,5 @@
-import 'package:climate/ui/utilities/constants.dart';
-import 'package:climate/ui/widgets/others/link_text_span.dart';
+import 'package:climate_app/ui/utilities/constants.dart';
+import 'package:climate_app/ui/widgets/others/link_text_span.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

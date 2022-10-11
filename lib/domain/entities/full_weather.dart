@@ -1,6 +1,6 @@
-import 'package:climate/domain/entities/daily_forecast.dart';
-import 'package:climate/domain/entities/hourly_forecast.dart';
-import 'package:climate/domain/entities/unit_system.dart';
+import 'package:climate_app/domain/entities/daily_forecast.dart';
+import 'package:climate_app/domain/entities/hourly_forecast.dart';
+import 'package:climate_app/domain/entities/unit_system.dart';
 import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
 

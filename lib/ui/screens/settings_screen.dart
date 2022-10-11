@@ -1,20 +1,20 @@
-import 'package:climate/data/models/dark_theme_model.dart';
-import 'package:climate/data/models/theme_model.dart';
-import 'package:climate/domain/entities/unit_system.dart';
-import 'package:climate/ui/screens/about_screen.dart';
-import 'package:climate/ui/state_notifiers/api_key_state_notifier.dart' as a;
-import 'package:climate/ui/state_notifiers/theme_state_notifier.dart';
-import 'package:climate/ui/state_notifiers/unit_system_state_notifier.dart'
+import 'package:climate_app/data/models/dark_theme_model.dart';
+import 'package:climate_app/data/models/theme_model.dart';
+import 'package:climate_app/domain/entities/unit_system.dart';
+import 'package:climate_app/ui/screens/about_screen.dart';
+import 'package:climate_app/ui/state_notifiers/api_key_state_notifier.dart' as a;
+import 'package:climate_app/ui/state_notifiers/theme_state_notifier.dart';
+import 'package:climate_app/ui/state_notifiers/unit_system_state_notifier.dart'
     hide Error;
-import 'package:climate/ui/widgets/dialogs/api_key/api_key_dialog.dart';
-import 'package:climate/ui/widgets/dialogs/api_key/api_key_info_dialog.dart';
-import 'package:climate/ui/widgets/dialogs/api_key/api_key_reset_dialog.dart';
-import 'package:climate/ui/widgets/dialogs/dark_theme_dialog.dart';
-import 'package:climate/ui/widgets/dialogs/theme_dialog.dart';
-import 'package:climate/ui/widgets/dialogs/unit_system_dialog.dart';
-import 'package:climate/ui/widgets/settings/settings_divider.dart';
-import 'package:climate/ui/widgets/settings/settings_header.dart';
-import 'package:climate/ui/widgets/settings/settings_tile.dart';
+import 'package:climate_app/ui/widgets/dialogs/api_key/api_key_dialog.dart';
+import 'package:climate_app/ui/widgets/dialogs/api_key/api_key_info_dialog.dart';
+import 'package:climate_app/ui/widgets/dialogs/api_key/api_key_reset_dialog.dart';
+import 'package:climate_app/ui/widgets/dialogs/dark_theme_dialog.dart';
+import 'package:climate_app/ui/widgets/dialogs/theme_dialog.dart';
+import 'package:climate_app/ui/widgets/dialogs/unit_system_dialog.dart';
+import 'package:climate_app/ui/widgets/settings/settings_divider.dart';
+import 'package:climate_app/ui/widgets/settings/settings_header.dart';
+import 'package:climate_app/ui/widgets/settings/settings_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

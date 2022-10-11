@@ -1,5 +1,5 @@
-import 'package:climate/ui/state_notifiers/full_weather_state_notifier.dart' as w;
-import 'package:climate/ui/utilities/constants.dart';
+import 'package:climate_app/ui/state_notifiers/full_weather_state_notifier.dart' as w;
+import 'package:climate_app/ui/utilities/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:sizer/sizer.dart';

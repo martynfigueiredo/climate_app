@@ -1,11 +1,11 @@
-import 'package:climate/core/either.dart';
-import 'package:climate/core/failure.dart';
-import 'package:climate/data/data_sources/full_weather_memoized_data_source.dart';
-import 'package:climate/data/data_sources/full_weather_remote_data_source.dart';
-import 'package:climate/data/provider.dart';
-import 'package:climate/domain/entities/city.dart';
-import 'package:climate/domain/entities/full_weather.dart';
-import 'package:climate/domain/repos/full_weather_repo.dart';
+import 'package:climate_app/core/either.dart';
+import 'package:climate_app/core/failure.dart';
+import 'package:climate_app/data/data_sources/full_weather_memoized_data_source.dart';
+import 'package:climate_app/data/data_sources/full_weather_remote_data_source.dart';
+import 'package:climate_app/data/provider.dart';
+import 'package:climate_app/domain/entities/city.dart';
+import 'package:climate_app/domain/entities/full_weather.dart';
+import 'package:climate_app/domain/repos/full_weather_repo.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:riverpod/riverpod.dart';
 
