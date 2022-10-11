@@ -1,13 +1,13 @@
-import 'package:climate_app/core/either.dart';
-import 'package:climate_app/core/failure.dart';
-import 'package:climate_app/data/models/api_keys_model.dart';
-import 'package:climate_app/data/provider.dart';
-import 'package:riverpod/riverpod.dart/';
+import 'package:climate/core/either.dart';
+import 'package:climate/core/failure.dart';
+import 'package:climate/data/models/api_key_model.dart';
+import 'package:climate/data/provider.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 const _apiKeyPrefsKey = 'open_weather_map_api_key';
 
-class ApiKeyLocalDataSource{
+class ApiKeyLocalDataSource {
   ApiKeyLocalDataSource(this._prefs);
 
   final SharedPreferences _prefs;
@@ -16,9 +16,9 @@ class ApiKeyLocalDataSource{
       Right(ApiKeyModel.parse(_prefs.getString(_apiKeyPrefsKey)));
 
   Future<Either<Failure, void>> setApiKey(ApiKeyModel model) async {
-    if (model.isCustom){
+    if (model.isCustom) {
       await _prefs.setString(_apiKeyPrefsKey, model.apiKey);
-    } else{
+    } else {
       await _prefs.remove(_apiKeyPrefsKey);
     }
 
@@ -27,5 +27,5 @@ class ApiKeyLocalDataSource{
 }
 
 final apiKeyLocalDataSourceProvider = Provider(
-    (ref) => ApiKeyLocalDataSource(ref.watch(sharedPreferencesProvider)),
+  (ref) => ApiKeyLocalDataSource(ref.watch(sharedPreferencesProvider)),
 );

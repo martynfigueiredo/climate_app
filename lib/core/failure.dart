@@ -1,35 +1,33 @@
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 
-
 @sealed
-abstract class Failure extends Equatable{
+abstract class Failure extends Equatable {
   const Failure();
 }
 
-class NoConnection extends Failure{
+class NoConnection extends Failure {
   const NoConnection();
 
   @override
-  List<Object?> get props => const[];
+  List<Object?> get props => const [];
 }
 
-class ServerDown extends Failure{
+class ServerDown extends Failure {
   const ServerDown();
 
   @override
-  List<Object?> get props => const[];
+  List<Object?> get props => const [];
 }
 
-class FailedToParseResponse extends Failure{
+class FailedToParseResponse extends Failure {
   const FailedToParseResponse();
 
   @override
-  List<Object?> get props => const[];
+  List<Object?> get props => const [];
 }
 
-
-class InvalidCityName extends Failure{
+class InvalidCityName extends Failure {
   const InvalidCityName(this.cityName);
 
   final String cityName;
@@ -38,16 +36,16 @@ class InvalidCityName extends Failure{
   List<Object?> get props => [cityName];
 }
 
-class InvalidApiKey extends Failure{
+class InvalidApiKey extends Failure {
   const InvalidApiKey();
 
   @override
-  List<Object?> get props => const[];
+  List<Object?> get props => const [];
 }
 
-class CallLimitedExceeded extends Failure{
-  const CallLimitedExceeded();
+class CallLimitExceeded extends Failure {
+  const CallLimitExceeded();
 
   @override
-  List<Object?> get props => const[];
+  List<Object?> get props => const [];
 }

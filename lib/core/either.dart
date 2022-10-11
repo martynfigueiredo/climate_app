@@ -4,15 +4,15 @@ import 'package:meta/meta.dart';
 import 'functions.dart';
 
 @sealed
-abstract class Either<L,R> extends Equatable{
+abstract class Either<L, R> extends Equatable {
   const Either._();
 
   T fold<T>(T Function(L) left, T Function(R) right);
 
   Either<L, R2> map<R2>(R2 Function(R) f) => fold(
-    Left.new,
-      (right) => Right(f(right)),
-  );
+        Left.new,
+        (right) => Right(f(right)),
+      );
 
   bool all(bool Function(R) f) => fold((left) => false, f);
 
@@ -24,8 +24,7 @@ abstract class Either<L,R> extends Equatable{
   bool get stringify => true;
 }
 
-
-class Left<L, R> extends Either<L, R>{
+class Left<L, R> extends Either<L, R> {
   const Left(this.value) : super._();
 
   final L value;
@@ -37,7 +36,7 @@ class Left<L, R> extends Either<L, R>{
   List<Object?> get props => [value];
 }
 
-class Right<L, R> extends Either<L, R>{
+class Right<L, R> extends Either<L, R> {
   const Right(this.value) : super._();
 
   final R value;
@@ -47,6 +46,4 @@ class Right<L, R> extends Either<L, R>{
 
   @override
   List<Object?> get props => [value];
-
-
 }
